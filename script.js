@@ -75,7 +75,7 @@ async function checkWeather(city){
         }
     }
     catch(error){
-        // alert("Please Enter a Valid City Name");
-        alert("Error: " + error.message);
+        alert("Please Enter a Valid City Name or Try again");
+        // alert("Error: " + error.message);
     }
 }
